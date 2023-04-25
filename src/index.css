@@ -6,6 +6,15 @@ li {
   @apply p-4 text-sm
 }
 
+.blink_me {
+  animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
 
 .button {
     background-image: linear-gradient(to right, #34d399, #60a5fa);
