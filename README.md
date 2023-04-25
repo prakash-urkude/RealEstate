@@ -12,6 +12,10 @@ This is a real-estate app , which helps user to find there dream home .
 
 User can choose House or Flat .
 
+## Responsive
+
+
+
 ## Form 
 
 App contain a form , if user wants to connect with us or contect us can fill the form or can schedule a meeting . 
