@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+li {
+  @apply p-4 text-sm
+}
+
+
+.button {
+    background-image: linear-gradient(to right, #34d399, #60a5fa);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-image: linear-gradient(to right, #f472b6, #fbbf24);
+  }
+
+  @media screen and (max-width: 1400px) {
+
+    .meeting {
+      font-size: 30px;
+    }
+  }
+
+  @media screen and (max-width: 1050px) {
+
+    .title{
+      font-size: 150%;
+    }
+  }
+  
+  @media screen and (max-width: 750px) {
+    .phone {
+      display: none;
+    }
+    .clock {
+      display: none;
+    }
+    .title{
+      font-size: 100%;
+    }
+  }
+  @media screen and (max-width: 550px) {
+    .phone {
+      display: none;
+    }
+    .clock {
+      display: none;
+    }
+    .title{
+      font-size:70%;
+    }
+    .meeting {
+      font-size: 20px;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .meeting {
+      font-size: 15px;
+    }
+    @media screen and (max-width: 320px) {
+      .meeting {
+        font-size: 10px;
+      }
+    }
+  }
+  
